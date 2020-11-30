@@ -4,20 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/javaScript.js"></script>
 </head>
 <body>
   <h1>Tic Tac Toe!</h1>
+  <h3>Player 1 is blue & player 2 is red</h3>
   <div id='board'>
-    <div class='cell'></div>
-    <div class='cell'></div>
-    <div class='cell'></div>
-    <div class='cell'></div>
-    <div class='cell'></div>
-    <div class='cell'></div>
-    <div class='cell'></div>
-    <div class='cell'></div>
-    <div class='cell'></div>
+    <div id="one" class='cell one' onclick="myFunction(this)">1 </div>
+    <div id="two" class='cell two' onclick="myFunction(this)"   >2</div>
+    <div id="three" class='cell three' onclick="myFunction(this)"   >3</div>
+    <div id="four" class='cell four' onclick="myFunction(this)"   >4</div>
+    <div id="five" class='cell five' onclick="myFunction(this)"   >5</div>
+    <div id="six" class='cell six' onclick="myFunction(this)"   >6</div>
+    <div id="seven" class='cell seven' onclick="myFunction(this)"   >7</div>
+    <div id="eight" class='cell eight' onclick="myFunction(this)"   >8</div>
+    <div id="nine" class='cell nine' onclick="myFunction(this)"   >9</div>
+    <div class="background"></div>
   </div>
-  <button id='start'>Start Game</button>
+  <button id='start'> Start Game</button>
 </body>
 </html>

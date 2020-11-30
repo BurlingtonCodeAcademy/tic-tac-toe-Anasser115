@@ -1,0 +1,67 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 2px;
+}
+
+.cell.one {
+    grid-column: 1 / 2 ;
+    grid-row: 1/2;
+    
+}
+.cell.two {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
+.cell.three {
+    grid-column: 3/4;
+    grid-row: 1/2;
+   
+}
+.cell.four {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+.cell.five {
+    grid-column: 2/3;
+    grid-row: 2/3;
+   
+}
+.cell.six {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    
+}
+.cell.seven {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    
+}
+.cell.eight {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    
+}
+.cell.nine {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    
+}
+.cell:hover {
+    background-color: rgb(196, 191, 181);
+}
+.cell {
+    
+    background-color: rgb(248, 242, 231);
+    border-radius: 5%;
+    font-size: 0%;
+}
+.background {
+    grid-area: 1/1/4/4;
+    background-color: black;
+    z-index: -1;
+   
+}
