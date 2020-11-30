@@ -6,7 +6,7 @@
 
 count = 1;
 winner = [];
-
+function restart() { window.location.reload(false);};
 function myFunction(elmnt) {
   
 if (count <= 9 && elmnt.style.backgroundColor != "red" && elmnt.style.backgroundColor != "blue") {
